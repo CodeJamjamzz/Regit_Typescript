@@ -1,16 +1,15 @@
 import "./index.css";
 import Header from "./Components/Project_BodyPages/Header.tsx";
-import DatabaseOperations from "./Components/Class/DatabaseOperations";
-import Login from "./Components/Project_BodyPages/Login.tsx"
-import useAuth from "./Components/Component_Elements/useAuth.tsx"
+import Account from "./Components/Project_BodyPages/Account.tsx";
+import useAuth from "./Components/Component_Elements/useAuth.tsx";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const database = DatabaseOperations.getInstance();
   const isLoggedIn = useAuth();
 
   return (
     <>
-      {!isLoggedIn ? <Login/> : <Header title="Regit"></Header>}
+      {!isLoggedIn ? <Account /> : <Header title="Regit"></Header>}
     </>
   );
 }

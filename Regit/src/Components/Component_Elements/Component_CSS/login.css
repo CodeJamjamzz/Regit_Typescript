@@ -1,0 +1,41 @@
+.form-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 350px;
+  height: 370px;
+}
+
+.form-control:focus {
+  border-color: #28a745 !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+
+h2 {
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.forget-password {
+  text-align: right;
+}
+
+.login-button {
+  width: 100%;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: #00712d;
+  display: block;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+a {
+  transition: color 0.3s ease;
+}
