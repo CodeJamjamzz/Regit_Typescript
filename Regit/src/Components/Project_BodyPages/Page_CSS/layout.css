@@ -16,13 +16,14 @@
 }
 
 img {
-  margin-top: 10px;
-  height: 100px;
-  width: 100px;
+  margin-top: 20px;
+  height: 60px;
+  width: 60px;
 }
 
 h1 {
   color: white;
+  font-size: 40px;
 }
 
 nav ul {
